@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: monsterrat;
+    background-image: url(https://cdn.suwalls.com/wallpapers/vector/woman-silhouette-by-the-pink-flowers-51391-1920x1080.jpg);
+   
+}
+.section{
+    width:100%;
+    min-height: 100vh;
+    background-color: black;
+}
+.container{
+    width:80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 45px;
+    color:maroon;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color:#931466;
+    font-size: 33px;
+}
+.content-section .content h1{
+    color:blue;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+color:rgba(0, 0, 0, 0.884);
+    line-height: 1.5;
+}
+.card-text{
+    color:rgb(102, 11, 79);
+}
+@media screen and (max-width:768px){
+    .container{
+        width:80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display:block;
+        margin:auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+        
+    }
+
+}
